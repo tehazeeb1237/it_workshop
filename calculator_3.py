@@ -1,0 +1,5 @@
+pi=int(input("enter the principle interest"))
+r=int(input("enter the rate of interest"))
+t=int(input("enter the no of years"))
+ci=pi*(pow((1+r/100),t))
+print("the compound interest is {}".format(ci))
